@@ -9,8 +9,11 @@
 เปิด Terminal หรือ Command Prompt ของคุณ แล้วรันคำสั่งนี้:
 
 ```bash
-docker run -p 5488:5488 -v jsreport_data:/app/data jsreport/jsreport
+docker run -p 5488:5488 -v jsreport_data:/app/data jsreport/jsreport:4.13.0
 
+docker run -p 5488:5488 -v jsreport_data:/app/data wachira90/jsreport:4.13.0
+
+docker run -p 5488:5488  wachira90/jsreport:4.13.0
 ```
 
 **คำอธิบายคำสั่ง:**
